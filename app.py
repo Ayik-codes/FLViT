@@ -25,7 +25,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model_and_config():
     # Define paths and constants
-    MODEL_NAME = 'vit_small_patch16_224.augreg_in2d'
+    MODEL_NAME = 'vit_small_patch16_224.augreg_in21k_ft_in1k'
     # NOTE: You might need to adjust the path depending on where you place the files
     PARAMS_PATH = 'best_centralized_params.csv'
     MODEL_PATH = 'final_fl_lora_model.pth'
