@@ -1,0 +1,10 @@
+streamlit
+torch
+torchvision
+timm
+peft
+grad-cam
+pandas
+scikit-learn
+numpy
+Pillow
