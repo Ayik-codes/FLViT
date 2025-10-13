@@ -123,9 +123,7 @@ if uploaded_file is not None:
 
             with col1:
                 st.metric("Prediction", pred_label_name.capitalize())
-                st.write("Confidence:")
-                st.progress(confidence_score)
-                st.write(f"{confidence_score:.2%}")
+                 
 
             with col2:
                 st.image(visualization, caption='Model Explanation (Grad-CAM)')
